@@ -34,7 +34,7 @@ The application implements a custom filter based on a JSON WEB Token(JWT). The J
 
 ### SQL Triggers
 
-The application uses trigPostgreSQL gers to reduce the load on the database and simplify data retrieval requests.
+The application uses triggers to reduce the load on the database and simplify data retrieval requests.
 
 ### Presentation Layer
 
@@ -48,7 +48,7 @@ The application uses the concept of components. The components allowed me to fle
 
 All three layers of the application are deployed as separate services on the Microsoft Azure cloud platform.
 
-### Run locally
+### To Run locally
 #### Prerequisites
 * JDK 17
 * Node.js 18.17.1
