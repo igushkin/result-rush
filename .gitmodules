@@ -4,3 +4,6 @@
 [submodule "ResultRushAngular"]
 	path = ResultRushAngular
 	url = https://github.com/igushkin/resultRushFront.git
+[submodule "ResultRushServer"]
+	path = ResultRushServer
+	url = https://github.com/igushkin/ResultRushServer.git
