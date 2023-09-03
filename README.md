@@ -2,7 +2,7 @@
 
 ResultRush is a web application designed to help people set, track and achieve personal goals. The app provides a tool for effective goal planning and management, helping users become more productive and successful.  
 <br>
-<img src="https://github.com/igushkin/result-rush/assets/106703296/e1adf4f2-484c-48d0-9e98-9d64112b045f" width=500px >
+<img src="https://github.com/igushkin/result-rush/blob/main/examples/main.gif?raw=true" width=350px >
 <br>
 
 The main functions of the application:  
