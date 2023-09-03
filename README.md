@@ -9,6 +9,10 @@ The main functions of the application:
 * Creating SMART goals. Users can create their own goals following the SMART principle. The application helps users to create specific, measurable, achievable, relevant goals and set deadlines for their achievement.
 * Dashboard and progress report. The application provides an informative dashboard where users can track progress towards achieving each of their goals. Users can specify which steps have already been completed and which have yet to be completed.
 
+### Demo
+
+[https://resultrushfront.azurewebsites.net/](https://resultrushfront.azurewebsites.net/)
+
 ### Built With
 
 * Spring Boot Framework
@@ -23,15 +27,14 @@ The application can be represented as the work of three layers independent of ea
 <br>
 This is an implementation of the classic three-level architecture of a web application which consists of a presentation layer, application layer and data layer.
 
-### Spring Security
+### JWT and Spring Security 
 
-<br>
-<img src="https://github.com/igushkin/result-rush/blob/main/examples/security.png?raw=true" width=500px>
-<br>
+The application implements a custom filter based on a JSON WEB Token(JWT). The JWT token can store some payload (user id e.g), which eliminates the need to make an additional request to the database.
+
 
 ### SQL Triggers
 
-The application uses triggers to reduce the load on the database and simplify data retrieval requests.
+The application uses trigPostgreSQL gers to reduce the load on the database and simplify data retrieval requests.
 
 ### Presentation Layer
 
@@ -43,14 +46,15 @@ The application uses the concept of components. The components allowed me to fle
 
 ### Deployment
 
-The application can be represented as the work of three layers independent of each other: a frontend that is implemented using Angular, a backend written on the Spring Framework and database.
+All three layers of the application are deployed as separate services on the Microsoft Azure cloud platform.
 
-## Getting Started
-### Prerequisites
-This application requires .NET Framework 4.5 to run. 
+### Run locally
+#### Prerequisites
+* JDK 17
+* Node.js 18.17.1
+* PostgreSQL 15
 
-Dowload the source, compile and run should work out of the box.
 
 ```
-git clone https://github.com/igushkin/rocket.git
+git clone https://github.com/igushkin/result-rush
 ```
