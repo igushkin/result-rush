@@ -9,7 +9,7 @@ The main functions of the application:
 * Creating SMART goals. Users can create their own goals following the SMART principle. The application helps users to create specific, measurable, achievable, relevant goals and set deadlines for their achievement.
 * Dashboard and progress report. The application provides an informative dashboard where users can track progress towards achieving each of their goals. Users can specify which steps have already been completed and which have yet to be completed.
 
-### Demo
+### Live Demo
 
 [https://resultrushfront.azurewebsites.net/](https://resultrushfront.azurewebsites.net/)
 
